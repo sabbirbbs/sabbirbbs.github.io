@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sabbirbbs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This is a personal blog alogside a portfolio of mine.">
+<link rel="icon" href="assets/favicon.ico" type="image/ico">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="terminal">
+<div class="head">
+<div class="devil">bbs@devil:~<span><a href="#min" onclick="mini()">&minus;</a><a href="#max" id="max-min" onclick="maxi()">&#9744;</a><a href="#exit" onclick="exit('terminal')">&#10006;</a></span></div>
+	<ul>
+	<li><a href="#home" onclick="home()">Home</a>
+	<li><a href="#blog" onclick="blog()">Blog</a>
+	<li><a href="#contact" onclick="contact()">Contact</a>
+	</ul>
+</div>
+<div id="content">
+</div>
+</div>
+<!--Post Terminal-->
+<div id="blogTerminal">
+<div class="blogHead">
+<div class="blogDevil">bbs@devil:~<span><a href="#min" onclick="blogMin()">&minus;</a><a href="#max" id="max-min" onclick="blogMax()">&#9744;</a><a href="#exit" onclick="exit('blogTerminal')">&#10006;</a></span></div>
+	<ul id="nav">
+	<li><a href="#prev" onclick="prev()" id="prev">&lt;Prev</a>
+	<li><a href="#next" onclick="next()" id="next">Next&gt;</a>
+	</ul>
+</div>
+<div id="blogContent">
+	<iframe src="" id="blogPost" name="" onload="hide()" width="100%"></iframe>
+</div>
+</div>
+<!--Project Preview-->
+<div id="projectTerminal">
+<div class="projectHead">
+<div class="projectDevil">bbs@devil:~<span><a href="#exit" onclick="exit('projectTerminal')">&#10006;</a></span></div>
+</div>
+<div id="projectContent">
+	<iframe src="" id="project" name="" onload="hide()" width="100%"></iframe>
+</div>
+</div>
+<!--Additional Script-->
+<script src="assets/script.js"></script>
+<script src="assets/blogScript.js"></script>
+</body>
+</html>
