@@ -1,0 +1,213 @@
+body{
+	margin:0px;
+	border:0px;
+	box-sizing:border-box;
+}
+#terminal{
+	color:white;
+	background:black;
+	width:80%;
+	margin:10px auto;
+	padding-bottom:20px;
+	border-radius:5px;
+	position:static;
+}
+#terminal .head{
+	padding-top:5px;
+}
+#terminal .head .devil{
+	text-align:center;
+}
+#terminal .head .devil span{
+	float:right;
+}
+#terminal .head .devil span a{
+	color:white;
+	text-decoration:none;
+	margin:0px 5px;
+}
+#terminal .head ul{
+	list-style-type:none;
+	margin-left:-15px;
+}
+#terminal .head ul li{
+	display:inline-block;
+	margin-right:10px;
+}
+#terminal .head ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+}
+#terminal #content{
+	padding-left:22px;
+	max-height:500px;
+	overflow:auto;
+	padding-right:10px;
+	line-height:20px;
+}
+.devil span a:hover{
+	background:gray;
+	border-radius:10px;
+}
+#root span{
+	color:red;
+}
+#terminal #content a{
+	color:white;
+	text-decoration:none;
+}
+#terminal #content a:hover{
+	text-decoration:underline;
+	color:gray;
+}
+
+
+/*Blog Terminal stylesheet*/
+#blogTerminal{
+	color:white;
+	background:black;
+	width:70%;
+	margin:10px auto;
+	padding-bottom:20px;
+	border-radius:5px;
+	display:none;
+	position:fixed;
+	top:10%;
+	left:30%;
+	opacity:0.9;
+}
+#blogTerminal .blogHead{
+	padding-top:5px;
+}
+#blogTerminal .blogHead .blogDevil{
+	text-align:center;
+	padding-bottom:5px;
+}
+#blogTerminal .blogHead .blogDevil span{
+	float:right;
+}
+#blogTerminal .blogHead .blogDevil span a{
+	color:white;
+	text-decoration:none;
+	margin:0px 5px;
+}
+#blogTerminal .blogHead ul{
+	list-style-type:none;
+	margin-left:-15px;
+}
+#blogTerminal .blogHead ul li{
+	display:inline-block;
+	margin-right:10px;
+}
+#blogTerminal .blogHead ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+}
+#blogTerminal #blogContent{
+	padding-left:22px;
+	padding-right:10px;
+}
+#blogTerminal #blogContent #blogPost{
+	height:400px;
+}
+
+.blogDevil span a:hover{
+	background:gray;
+	border-radius:10px;
+}
+/*Project Preview CSS*/
+#projectTerminal{
+	color:white;
+	background:black;
+	width:80%;
+	margin:10px auto;
+	padding-bottom:20px;
+	border-radius:5px;
+	position:fixed;
+	top:10%;
+	left:5%;
+	display:none;
+	opacity:0.9;
+	
+}
+#projectTerminal .projectHead{
+	padding-top:5px;
+}
+#projectTerminal .projectHead .projectDevil{
+	text-align:center;
+	padding-bottom:5px;
+}
+#projectTerminal .projectHead .projectDevil span{
+	float:right;
+}
+#projectTerminal .projectHead .projectDevil span a{
+	color:white;
+	text-decoration:none;
+	margin:0px 5px;
+}
+#projectTerminal .projectHead ul{
+	list-style-type:none;
+	margin-left:-15px;
+}
+#projectTerminal .projectHead ul li{
+	display:inline-block;
+	margin-right:10px;
+}
+#projectTerminal .projectHead ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+}
+#projectTerminal #projectContent{
+	padding-left:22px;
+	max-height:600px;
+	padding-right:10px;
+}
+.projectDevil span a:hover{
+	background:gray;
+	border-radius:10px;
+}
+#projectTerminal #projectContent #project{
+	height:500px;
+}
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+#terminal{
+	width:90%;
+}
+#blogTerminal{
+	width:80%;
+	left:15%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
