@@ -1,4 +1,4 @@
-var posts = [];
+var posts = ["Demo Post"];
 
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
