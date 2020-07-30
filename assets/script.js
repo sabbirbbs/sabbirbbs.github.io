@@ -152,7 +152,7 @@ if(1 == posts.length){
 }
 }//Next & prev buton control
 function hidden(){
-	console.log(`WOW!You are genius.😀😀😀...`);
+	console.log(`WOW!You are genius.):>:...`);
 }
 
 
