@@ -152,9 +152,7 @@ if(1 == posts.length){
 }
 }//Next & prev buton control
 function hidden(){
-	console.log(`Thanks for reaveal me.If you like the portfolio of mine.
-	You can use this for you too.I have published a open source version of the project for you.
-	You can also contribute if you find any bugs or want to update this https://github.com/sabbirbbs/terminal-portfolio Thanks...`);
+	console.log(`WOW!You are genius.😀😀😀...`);
 }
 
 
