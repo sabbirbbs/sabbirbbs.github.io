@@ -1,4 +1,4 @@
-var posts = ["Demo Post"];
+var posts = ["Mad libs game"];
 
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
