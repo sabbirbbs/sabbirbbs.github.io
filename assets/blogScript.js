@@ -1,4 +1,4 @@
-var posts = ["Mad libs game.","6 digit password list generator in python.];
+var posts = ["Mad libs game.","6 digit password list generator in python."];
 
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
