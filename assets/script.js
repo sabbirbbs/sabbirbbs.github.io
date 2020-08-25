@@ -46,8 +46,8 @@ const contactPage = `<div id="root"><span style="color:rgb(52, 235, 225);">bbs@d
 
 
 const blogPage = `<div id="root"><span>root</span>@devil:/var/www/html/notes# apt-get upgrade</div>
-			<span>Get:1 <a href="#project-1" onclick="project('notes/2.html')">6 digit password list</a></span><span style="float:right;padding-right:0%;"> from projects</span></br>
-			<span>Get:2 <a href="#note-1" onclick="note('notes/1.html','1')">Mad libs game</a></span><span style="float:right;padding-right:0%;"> from notes</span></br>
+			<span>Get:1 <a href="#project-1" onclick="project('notes/2.html')">6 digit password list.</a></span><span style="float:right;padding-right:0%;"> from projects</span></br>
+			<span>Get:2 <a href="#note-1" onclick="note('notes/1.html','1')">Mad libs game.</a></span><span style="float:right;padding-right:0%;"> from notes</span></br>
 			<span>Get:3 <a href="#note-2" onclick="note('notes/2.html','2')">6 digit password list generator in python.</a></span><span style="float:right;padding-right:0%;">  from notes</span></br>
 			<span>Fetching latest projects... Done
 			<div id="root"><span>root</span>@devil:/var/www/html/notes# grep BBS-Note | cd notes</div>
