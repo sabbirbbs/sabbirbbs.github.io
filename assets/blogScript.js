@@ -1,4 +1,4 @@
-var posts = ["Mad libs game"];
+var posts = ["Mad libs game.","6 digit password list generator in python.];
 
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
@@ -12,4 +12,4 @@ var oc =`onclick="note('notes/`+noteNum+`.html','`+noteNum+`')"`;
 document.getElementById("postLink").innerHTML += '<a name="'+noteNum+'" href="#'+posts[i]+'" '+oc+'>'+'<span style="color:white">BBS-Note-'+noteNum+'</span>> '+posts[i]+'</a>'+'<br>';
 }
 }
-}//Entire block under the function
+}//Entire blog under the function
