@@ -1,14 +1,41 @@
 <html>
 <head>
 <title>6 digit password list generator in python.</title>
-  <script src="../assets/script.js"></script>
 </head>
 <body style="color:white;">
-<h3>6 digit password list generator</h3>
+<h3>6 digit password list generator.</h3>
 <em>24/08/2020</em>
 <p>
   <h4>Intro</h4>
-  <p>Meet you later<a href="#passlist" onclick="project('https://www.sabbirbbs.wtf')">Show project</a></p>
+  <p>It was a long moment.I was surfing internet for a 6 digit password list to perform a pentest.Finally,i was find this on a 
+  github repository.But,now am thinking that's writing a few lines of code is better than researching this type of stuff on the internet.
+  Suddenly,i remembered this & tried by python as i did myself in 10*2 line of code.Check out the source code below.
+  </p>
+  <h4>Source Code</h4>
+  <code>
+    import sys<br>
+    sys.stdout = open("pass.txt","w")<br>
+    key = 0<br>
+    while key < 1000000:<br>
+        if len(str(key)) <= 6:<br>
+            a = 6 - len(str(key))<br>
+            if a == 5:<br>
+                print("00000{}".format(key))<br>
+            elif a == 4:<br>
+                print("0000{}".format(key))<br>
+            elif a == 3:<br>
+                print("000{}".format(key))<br>
+            elif a == 2:<br>
+                print("00{}".format(key))<br>
+            elif a == 1:<br>
+                print("0{}".format(key))<br>
+            else:<br>
+                print("{}".format(key))<br>
+        key += 1<br>
+    sys.stdout.close()<br>
+  </code>
+  <p>Here it is.Just compile the code & get your password list.You can also comtimize the project yourself.If you know the basic of python.</p>
+  -... -.. ...
 </p>
 </body>
 </html>
