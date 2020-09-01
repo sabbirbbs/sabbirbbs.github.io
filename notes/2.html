@@ -13,26 +13,35 @@
   </p>
   <h4>Source Code</h4>
   <code>
-    import sys<br>
-    sys.stdout = open("pass.txt","w")<br>
-    key = 0<br>
-    while key < 1000000:<br>
-        if len(str(key)) <= 6:<br>
-            a = 6 - len(str(key))<br>
-            if a == 5:<br>
-                print("00000{}".format(key))<br>
-            elif a == 4:<br>
-                print("0000{}".format(key))<br>
-            elif a == 3:<br>
-                print("000{}".format(key))<br>
-            elif a == 2:<br>
-                print("00{}".format(key))<br>
-            elif a == 1:<br>
-                print("0{}".format(key))<br>
-            else:<br>
-                print("{}".format(key))<br>
-        key += 1<br>
-    sys.stdout.close()<br>
+<pre>
+import sys
+print("##############################")
+print("#    Project: Pass Generator #")
+print("#    Author: Sabbirbbs       #")
+print("#    FB: m.me/sabbirbbs      #")
+print("#    Date: 30.08.2020        #")
+print("##############################")
+
+sys.stdout = open("pass.txt","w")
+key = 0
+while key < 1000000:
+    if len(str(key)) <= 6:
+        a = 6 - len(str(key))
+        if a == 5:
+            print("00000{}".format(key))
+        elif a == 4:
+            print("0000{}".format(key))
+        elif a == 3:
+            print("000{}".format(key))
+        elif a == 2:
+            print("00{}".format(key))
+        elif a == 1:
+            print("0{}".format(key))
+        else:
+            print("{}".format(key))
+    key += 1
+sys.stdout.close()
+</pre>
   </code>
   <h4>Finality</h4>
   <p>Here it is.Just compile the code & get your password list.You can also comtimize the project yourself.If you know the basic of python.</p>
