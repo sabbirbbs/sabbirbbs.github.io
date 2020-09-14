@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import base64 as bbs
-mail = "c2FiYmlyQGJic0BnbWFpbC5jb20="
+mail = "c2FiYmlyMTc0YmJzQGdtYWlsLmNvbQ=="
 fb = "aHR0cHM6Ly9tLm1lL3NhYmJpcmJicw=="
 num = "NTc4MTM1MjQyNTE1MjAwMjkwNDMyMTg1Njc4MTU="
 x = bbs.b64decode(num)
