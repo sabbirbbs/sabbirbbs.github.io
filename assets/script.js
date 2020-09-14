@@ -35,7 +35,7 @@ const contactPage = `<div id="root"><span style="color:rgb(52, 235, 225);">bbs@d
 			<span>
 			#!/usr/bin/python<br>
 			import base64 as bbs<br>
-			mail = "c2FiYmlyQGJic0BnbWFpbC5jb20="<br>
+			mail = "c2FiYmlyMTc0YmJzQGdtYWlsLmNvbQ=="<br>
 			fb = "aHR0cHM6Ly9tLm1lL3NhYmJpcmJicw=="<br>
 			num = "NTc4MTM1MjQyNTE1MjAwMjkwNDMyMTg1Njc4MTU="<br>
 			x = bbs.b64decode(num)<br>
