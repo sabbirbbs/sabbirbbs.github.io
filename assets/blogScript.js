@@ -1,5 +1,5 @@
-var posts = ["6 digit password list generator in python.","Mad libs game."];
-//Laways add new post title on the first index of the "posts" array.
+var posts = ["Mathematical Game","6 digit password list generator in python.","Mad libs game."];
+//Always add new post title on the first index of the "posts" array.
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
 if(posts === undefined || posts.length == 0){
