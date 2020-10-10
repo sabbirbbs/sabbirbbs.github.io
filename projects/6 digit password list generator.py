@@ -1,3 +1,7 @@
+print("##############################")
+print("#    Project: Pass List      #")
+print("#    Date: 25.08.2020        #")
+print("##############################")
 import sys
 sys.stdout = open("pass.txt","w")
 key = 0
