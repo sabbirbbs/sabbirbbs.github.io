@@ -1,3 +1,7 @@
+print("##############################")
+print("#    Project: List Test      #")
+print("#    Date: 09.10.2020        #")
+print("##############################")
 from kivymd.app import MDApp
 from kivy.lang import Builder
 from kivymd.uix.screen import Screen
