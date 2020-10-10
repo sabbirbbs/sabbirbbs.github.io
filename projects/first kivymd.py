@@ -1,3 +1,7 @@
+print("##############################")
+print("#    Project: First Kivymd   #")
+print("#    Date: 01.10.2020        #")
+print("##############################")
 from kivymd.app import MDApp
 from kivy.lang import Builder
 from kivymd.uix.screen import Screen
@@ -52,20 +56,3 @@ class MineApp(MDApp):
     
 if __name__ == "__main__":
     MineApp().run()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
