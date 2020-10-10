@@ -91,20 +91,3 @@ class App(MDApp):
     def test(self,obj):
         print("Tested")
 App().run()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
