@@ -23,9 +23,9 @@ def scan(ip):
         return users
     
 def print_data(clients):
-    print("-"*57+"\n|\tMAC Address     \t |\t IP Address    |\n"+"-"*57)
+    print("-"*57+"\n|\tMAC Address\t |\t IP Address\t\t|\n"+"-"*57)
     for x in clients:
-        print("|\t"+x["ip"]+"\t|"+"\t"+x["mac"]+"\t|\n")
+        print("|\t"+x["ip"]+"\t|"+"\t"+x["mac"]+"\t|")
         print("-"*57)
 
 print_data(scan(get_args()[0].IP))
