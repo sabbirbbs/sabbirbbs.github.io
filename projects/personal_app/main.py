@@ -16,7 +16,7 @@ import json
 
 
 about = """
-[b][color=#ff9900]from[/color] strings.py [color=#ff9900]import[/color] about[/b]
+[b][color=#ff9900]from[/color] main.py [color=#ff9900]import[/color] about[/b]
 [size=20][b][color=#ff0000]>>>[/color][/b]_ about[0:4][/size]
 Hey,what's up buddy?
 This is MD Sabbir Hosen from Bangladesh.Am age years old.I like to learn always something new from you. I wanna be a simple programmer.But,it's funny i can't write a proper single line of code let alone develop any entire project. Let's take a look of my mentality.
