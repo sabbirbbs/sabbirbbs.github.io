@@ -3,10 +3,8 @@ import subprocess
 import optparse
 import re
 
-print("##############################")
-print("#    Project: MAC Changer    #")
-print("#    Date: 25.10.2020        #")
-print("##############################")
+print("MAC Changer\n25.10.2020\n************\n")
+
 def get_mac(iface):
     if iface == None:
         return "not possible to find."
