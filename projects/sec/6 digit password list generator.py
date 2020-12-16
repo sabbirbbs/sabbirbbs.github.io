@@ -1,8 +1,5 @@
-print("##############################")
-print("#    Project: Pass List      #")
-print("#    Date: 25.08.2020        #")
-print("##############################")
 import sys
+print("Pass List\n25.08.2020\n************\n")
 sys.stdout = open("pass.txt","w")
 key = 0
 while key < 1000000:
