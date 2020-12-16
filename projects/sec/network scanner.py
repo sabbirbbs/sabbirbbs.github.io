@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-print("################################")
-print("#    Project: Network Scanner  #")
-print("#    Date: 02.12.2020          #")
-print("################################")
+print("Network Scanner\n02.12.2020\n************\n")
 import optparse
 import scapy.all as scapy
 def get_args():
