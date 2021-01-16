@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Eye Care 20-20-20</title>
+</head>
+<body style="color:white;">
+<h3>Eye Care 20-20-20</h3>
+<em>16/01/2021</em>
+  <!--Project-->
+<p>
+  <h4>Intro</h4>
+  <p>That's great to protect your eyes & relax while using your computer a long.I figured out the technique online & thought to develop a script to implement the idea.20-20-20 rules is to move your eyes after every 20 minutes look at 20 feet far for 20 seconds.If you can move from the desk & look for something nature.That's why created a program in python.Which will alert me after every 20 minutes as default & i can customize the time by giving an argument in second.That's after 20 minute beep beep beep*3...
+  </p>
+  <h4>Source Code</h4>
+  <code>
+<pre>
+from playsound import playsound
+import keyboard
+import time
+import sys
+
+print("Eye Care 20-20-20\n16.01.2021\n************\n")
+
+try:
+	timi = int(sys.argv[1])
+except:
+	timi = 1200
+
+try:
+	while True:
+		print(f"waiting {timi} second.")
+		time.sleep(timi)
+		playsound("beep.mp3")
+		playsound("beep.mp3")
+		playsound("beep.mp3")
+except KeyboardInterrupt:
+	print("\rStoping the alert.")
+	sys.stdout.flush()
+</pre>
+  </code>
+  <h4>Finality</h4>
+  <p>Hey you,can't compile the code.It's doesn't matter.I have no such headache to pack this for you.
+  </p>
+  -... -.. ...
+</p>
+</body>
+</html>
