@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Live USB Encrypted Persistence</title>
+</head>
+<body style="color:white;">
+<h3>Live USB Encrypted Persistence</h3>
+<em>26/01/2021</em>
+  <!--Post-->
+<p>
+  <h4>Intro</h4>
+  <p>There are have several linux distribution out there that support live system inside a pendrive with persistence.And sometime i have to use them as a portable system in my pocket.
+  That's the reason i have to also use encryption for security purpose.Here is how to do that without any explaination.
+  </p>
+  <h4>Command</h4>
+  <code>
+<pre>
+<ul type="square">
+<li>sudo bash</li>
+<li>fdisk /dev/sda(n,e*4,w)</li>
+<li>fdisk -l</li>
+<li>cryptsetup --verbose --verify-passphrase luksFormat /dev/sda3</li>
+<li>cryptsetup luksOpen /dev/sda3 usb</li>
+<li>mkfs.ext4 /dev/mapper/usb</li>
+<li>e2label /dev/mapper/usb persistence</li>
+<li>mkdir -p /mnt/usb</li>
+<li>mount /dev/mapper/usb /mnt/usb</li>
+<li>echo "/ union" > /mnt/usb/persistence.conf</li>
+<li>umount /dev/mapper/usb</li>
+<li>cryptsetup luksClose /dev/mapper/usb</li>
+</ul>
+</pre>
+  </code>
+  <h4>Finality</h4>
+  <p>Not for you man.You can just try this once.But,no complain.Ok...
+  </p>
+  -... -.. ...
+</p>
+</body>
+</html>
