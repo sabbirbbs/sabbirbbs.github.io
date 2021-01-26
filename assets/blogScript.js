@@ -1,4 +1,4 @@
-var posts = ["Eye Care 20-20-20","ARP Spoofer to be in the middle","Network Scanner to discover clients","Linux MAC Changer CLI","Mathematical Game","6 digit password list generator in python.","Mad libs game."];
+var posts = ["Live USB Encrypted Persistence","Eye Care 20-20-20","ARP Spoofer to be in the middle","Network Scanner to discover clients","Linux MAC Changer CLI","Mathematical Game","6 digit password list generator in python.","Mad libs game."];
 //Always add new post title on the first index of the "posts" array.
 function blog(){
 document.getElementById("content").innerHTML = blogPage;
