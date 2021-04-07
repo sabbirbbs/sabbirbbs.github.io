@@ -9,6 +9,7 @@ import time
 #Load the driver
 browser = webdriver.Firefox()
 
+operation = 10
 url = "http://103.230.104.210:8088/ntrca/c3/app/applicant-start.php"
 agree = "agree"
 
@@ -38,8 +39,6 @@ _2nd_inp_entry_data = {
 	"address" : "Vill: Hoichoi P.O: Sadar",
 	"perm_pcode" : "2200",
 	"perm_address" : "Vill: Hoichoi P.O: Sadar",
-	"photo" : 'avatar.jpg',
-	"signature" : 'sign.jpg'
 }
 
 #2nd Select Entry Field
@@ -84,8 +83,6 @@ _2nd_inp_entry = {
 	"address" : "address",
 	"perm_pcode" : "perm_pcode",
 	"perm_address" : "perm_address",
-	"photo" : "photo_hidden",
-	"signature" : "signature_hidden"
 }
 
 _2nd_entry = {
@@ -132,16 +129,19 @@ def fill_the_second_form():
 	try:
 		try:
 			for verbose,field in _2nd_inp_entry.items():
-				WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.ID,field)))
 				action = browser.find_element_by_id(field)
 				action.send_keys(_2nd_inp_entry_data[verbose])			
 		except Exception as error:
 			print(error)
 		try:
 			for verbose,field in _2nd_entry.items():
-				WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.ID,field)))
-				action = Select(browser.find_element_by_id(field))
-				action.select_by_visible_text(_2nd_entry_data[verbose])
+				if field == "dist_code":
+					time.sleep(2)
+					action = Select(browser.find_element_by_id(field))
+					action.select_by_visible_text(_2nd_entry_data[verbose])
+				else:
+					action = Select(browser.find_element_by_id(field))
+					action.select_by_visible_text(_2nd_entry_data[verbose])
 				
 			understand = browser.find_element_by_id(agree)
 			understand.click()
@@ -150,30 +150,19 @@ def fill_the_second_form():
 	except Exception as error:
 		print(error)
 
-#Calling The First Form Fill Up Functiion
-fill_the_first_form()
 
-input("Have you done institute selection? >>  ")
+for x in range(operation-1):
+	#Calling The First Form Fill Up Functiion
+	fill_the_first_form()
 
-#Calling The Second Form Fill Up Functiion
-fill_the_second_form()
+	input("Have you done institute selection? >>  ")
 
-input("Should i start a new application? >>  ")
+	#Calling The Second Form Fill Up Functiion
+	fill_the_second_form()
 
-	
-	
-"""
-batch = Select(browser.find_element_by_xpath(Ibatch))
-batch.select_by_value("11")
-browser.find_element_by_xpath(Iroll).send_keys(roll)
+	input("Should i start a new application? >>  ")
 
-
-for x in range(10):
 	browser.execute_script("window.open()")
-	print(browser.current_url)
 	browser.switch_to.window(browser.window_handles[len(browser.window_handles)-1])
-	browser.get("https://sabbirbbs.wtf")
-	print(browser.current_url)
-	print(len(browser.window_handles))
-
-"""
+	browser.get(url)
+	
