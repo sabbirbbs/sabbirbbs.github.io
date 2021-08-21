@@ -37,11 +37,9 @@ const contactPage = `<div id="root"><span style="color:rgb(52, 235, 225);">bbs@d
 			import base64 as bbs<br>
 			mail = "c2FiYmlyMTc0YmJzQGdtYWlsLmNvbQ=="<br>
 			fb = "aHR0cHM6Ly9tLm1lL3NhYmJpcmJicw=="<br>
-			num = "NTc4MTM1MjQyNTE1MjAwMjkwNDMyMTg1Njc4MTU="<br>
 			x = bbs.b64decode(num)<br>
 			print("Email me: "+bbs.b64decode(mail))<br>
 			print("Message me: "+bbs.b64decode(fb))<br>
-			print("Call me: "+"0"+x[21:-6]+x[12:20])<br>
 			</span>`;//Contact page data
 
 
