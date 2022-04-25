@@ -48,7 +48,7 @@ const blogPage = `<div id="root"><span>root</span>@devil:/var/www/html/notes# ap
 			<span>Get:2 <a href="#note-1" onclick="note('notes/1.html','1')">Mad libs game.</a></span><span style="float:right;padding-right:0%;"> from notes</span></br>
 			<span>Get:3 <a href="#note-2" onclick="project('notes/5.html')">Network Scanner to discover clients.</a></span><span style="float:right;padding-right:0%;">  from projects</span></br>
 			<span>Fetching latest projects... Done
-			<div id="root"><span>root</span>@devil:/var/www/html/notes# grep BBS-Note | ls notes</div>
+			<div id="root"><span>root</span>@devil:/var/www/html/notes# ls notes | grep BBS-Note</div>
 			<span id="postLink"></span>`;//Blog page data
 
 document.getElementById("content").innerHTML = homePage;
