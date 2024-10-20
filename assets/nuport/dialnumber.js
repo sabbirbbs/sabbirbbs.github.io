@@ -53,24 +53,17 @@
     // Run the function initially in case any links already exist
     removeCountryCodeFromDialpad();
 
+    console.log("remote code")
     //Remote support script
     const remoteScript = document.createElement('script');
     remoteScript.src = 'https://cdn.jsdelivr.net/gh/sabbirbbs/sabbirbbs.github.io/assets/nuport/support.js';
     remoteScript.onload = function() {
-        console.log('Remote script loaded successfully');
-    
-        // Run your second script after the remote script has loaded
-        runSecondScript();
+        //console.log('Remote script loaded successfully.');
     };
-    
+    remoteScript.onerror = function() {
+        //console.error('Error loading the remote script.');
+    };
     document.head.appendChild(remoteScript);
-    
-    // Your second script logic
-    function runSecondScript() {
-        console.log('Running the second script.');
-        // Add your second script logic here
-    }
-
 
 
 })();
