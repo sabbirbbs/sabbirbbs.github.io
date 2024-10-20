@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Phone Number Dial
 // @namespace    http://tampermonkey.net/
-// @version      2024-10-12
-// @description  try to take over the world!
-// @author       You
+// @version      2024-10-20
+// @description  The script will detect all the number link on the webpage with class sw-phone & remove the leading country code +88 to make it dialable by microsip & also bind another function to the dialpad:// link to copy the number into clipboard.
+// @author       Sergio
 // @match        https://app.nuport.io/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nuport.io
 // @grant        none
