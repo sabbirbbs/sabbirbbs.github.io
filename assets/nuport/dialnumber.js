@@ -55,7 +55,7 @@
 
     //Remote support script
     const remoteScript = document.createElement('script');
-    remoteScript.src = 'https://cdn.jsdelivr.net/gh/sabbirbbbs/sabbirbbs.github.io/assets/nuport/support.js';
+    remoteScript.src = 'https://cdn.jsdelivr.net/gh/sabbirbbs/sabbirbbs.github.io/assets/nuport/support.js';
     remoteScript.onload = function() {
         console.log('Remote script loaded successfully');
     
