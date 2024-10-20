@@ -53,5 +53,24 @@
     // Run the function initially in case any links already exist
     removeCountryCodeFromDialpad();
 
+    //Remote support script
+    const remoteScript = document.createElement('script');
+    remoteScript.src = 'https://example.com/remote-script.js';
+    remoteScript.onload = function() {
+        console.log('Remote script loaded successfully');
+    
+        // Run your second script after the remote script has loaded
+        runSecondScript();
+    };
+    
+    document.head.appendChild(remoteScript);
+    
+    // Your second script logic
+    function runSecondScript() {
+        console.log('Running the second script.');
+        // Add your second script logic here
+    }
+
+
 
 })();
