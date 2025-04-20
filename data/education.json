@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "icon": "fas fa-graduation-cap fa-fw",
+      "title": "HSC (Humanities)",
+      "description": "Completed Higher Secondary Certificate, focusing on foundational knowledge.",
+      "institution": "BRMC"
+    },
+    {
+      "icon": "fas fa-book-reader fa-fw",
+      "title": "BBS (Studies Paused)",
+      "description": "Understanding of business principles and practices, including areas like accounting, marketing, finance, and human resource management.",
+      "institution": "National Board"
+    },
+    {
+      "icon": "fas fa-certificate fa-fw",
+      "title": "SBMC Certification",
+      "description": "Gained skills in managing small business operations effectively.",
+      "institution": "As Sunnah Skill Development Institute"
+    }
+  ]
+}

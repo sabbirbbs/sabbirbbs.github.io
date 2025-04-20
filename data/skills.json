@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "icon": "fas fa-code fa-fw",
+      "title": "Programming & Dev",
+      "skills": [
+        { "icon": "fab fa-python fa-fw", "name": "Python" },
+        { "icon": "fas fa-globe fa-fw", "name": "Web Devlopment" },
+        { "icon": "fas fa-robot fa-fw", "name": "Web Automation & Scripting" }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "icon": "fas fa-shield-alt fa-fw",
+      "title": "Cybersecurity",
+      "skills": [
+        { "icon": "fas fa-user-secret fa-fw", "name": "Ethical Hacking & Pen Testing" },
+        { "icon": "fas fa-bug-slash fa-fw", "name": "Vulnerability Assessment" },
+        { "icon": "fas fa-network-wired fa-fw", "name": "Real-world Exploit Testing" }
+      ]
+    },
+    {
+      "id": "graphics",
+      "icon": "fas fa-palette fa-fw",
+      "title": "Graphics Design",
+      "skills": [
+        { "icon": "fas fa-image fa-fw", "name": "Adobe Photoshop" },
+        { "icon": "fas fa-bezier-curve fa-fw", "name": "Adobe Illustrator" },
+        { "icon": "fas fa-pen-ruler fa-fw", "name": "Canva" }
+      ]
+    },
+    {
+      "id": "video",
+      "icon": "fas fa-video fa-fw",
+      "title": "Video Editing",
+      "skills": [
+        { "icon": "fas fa-film fa-fw", "name": "Adobe Premiere Pro" },
+        { "icon": "fas fa-wand-magic-sparkles fa-fw", "name": "Adobe After Effects" },
+        { "icon": "fas fa-bolt fa-fw", "name": "Motion Graphics" },
+        { "icon": "fas fa-mobile-screen-button fa-fw", "name": "Short-form Content" }
+      ]
+    },
+    {
+      "id": "marketing",
+      "icon": "fas fa-bullhorn fa-fw",
+      "title": "Digital Marketing",
+      "skills": [
+        { "icon": "fab fa-meta fa-fw", "name": "Meta Ads Manager" },
+        { "icon": "fas fa-map-location-dot fa-fw", "name": "Facebook Pixel" },
+        { "icon": "fas fa-tags fa-fw", "name": "Google Tag Manager" },
+        { "icon": "fas fa-chart-line fa-fw", "name": "Google Analytics" }
+      ]
+    },
+    {
+        "id": "productivity",
+        "icon": "fas fa-tools fa-fw",
+        "title": "Productivity Tools",
+        "skills": [
+          { "icon": "fas fa-file-word fa-fw", "name": "MS Office Suite" },
+          { "icon": "fab fa-google-drive fa-fw", "name": "Google Workspace" },
+          { "icon": "fab fa-linux fa-fw", "name": "Linux" }
+        ]
+      }
+  ]
+}

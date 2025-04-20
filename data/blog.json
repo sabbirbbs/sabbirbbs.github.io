@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "Getting Started with Django and Wagtail CMS",
+      "slug": "django-wagtail-guide",
+      "date": "2025-04-15",
+      "excerpt": "A beginner's guide to building a blog platform using Django and Wagtail CMS.",
+      "content": "In this post, I walk you through setting up a Django project with Wagtail CMS to create a feature-rich blog platform. We'll cover installation, configuration, and custom page models...",
+      "image": "image/blog/django-wagtail.jpg"
+    },
+    {
+      "title": "Ethical Hacking: Tools and Techniques",
+      "slug": "ethical-hacking-tools",
+      "date": "2025-04-10",
+      "excerpt": "Explore the essential tools and techniques for ethical hacking and penetration testing.",
+      "content": "Ethical hacking is about securing systems by finding vulnerabilities before malicious actors do. In this post, I discuss tools like Nmap, Metasploit, and Burp Suite, along with practical techniques...",
+      "image": "image/blog/hacking-tools.jpg"
+    },
+    {
+      "title": "Creating Engaging Motion Graphics",
+      "slug": "motion-graphics-tips",
+      "date": "2025-04-05",
+      "excerpt": "Tips for designing captivating motion graphics using After Effects.",
+      "content": "Motion graphics can elevate your video content. In this post, I share my workflow in Adobe After Effects, including keyframe animation, text effects, and exporting for web...",
+      "image": "image/blog/motion-graphics.jpg"
+    }
+  ]
+}

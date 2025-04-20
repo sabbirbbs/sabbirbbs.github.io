@@ -1,0 +1,130 @@
+{
+  "web-projects": [
+    {
+      "type": "image",
+      "source": "image/project/web/lekhito_blog.png",
+      "alt": "Blog Platform Preview",
+      "title": "Lekhito Blog Platform",
+      "description": "Feature-rich blog built with Django & Wagtail CMS.",
+      "category": "Django / Wagtail",
+      "linkUrl": "http://blog.lekhito.xyz",
+      "linkText": "View Live",
+      "linkEnabled": true,
+      "imageWrapperHidden": false
+    },
+    {
+      "type": "image",
+      "source": "image/project/web/nims.png",
+      "alt": "Inventory Management System Preview",
+      "title": "NIMS - Inventory System",
+      "description": "Inventory Management System for small businesses (Django).",
+      "category": "Django / Web App",
+      "linkUrl": "http://nims.lekhito.xyz",
+      "linkText": "View Live",
+      "linkEnabled": true,
+      "imageWrapperHidden": false
+    },
+    {
+      "type": "image",
+      "source": "image/project/web/secondbrain.jpeg",
+      "alt": "Another Web Project",
+      "title": "Personal AI Based NoteBook",
+      "description": "Thinking about to build a personal note keeping project which data will be trained for AI model to work as second brain.",
+      "category": "Concept",
+      "linkUrl": "#",
+      "linkText": "Details Soon",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    }
+  ],
+  "cybersecurity-projects": [
+    {
+      "type": "placeholder",
+      "source": null,
+      "alt": "Government Site Audit Example",
+      "title": "Govt. Site Audit",
+      "description": "Vulnerability assessment on taxzonemymensingh.gov.bd.",
+      "category": "Ethical Hacking",
+      "linkUrl": "#",
+      "linkText": "Case Study (Soon)",
+      "linkEnabled": false,
+      "imageWrapperHidden": true
+    },
+    {
+      "type": "placeholder",
+      "source": null,
+      "alt": "ISP Software Audit Example",
+      "title": "ISP Platform Testing",
+      "description": "Security testing on ispms.net software platform.",
+      "category": "Penetration Testing",
+      "linkUrl": "#",
+      "linkText": "Details (Private)",
+      "linkEnabled": false,
+      "imageWrapperHidden": true
+    },
+    {
+      "type": "placeholder",
+      "source": null,
+      "alt": "CTF Example",
+      "title": "CTF Challenges",
+      "description": "Honing practical exploitation skills via CTFs.",
+      "category": "Security Challenges",
+      "linkUrl": "#",
+      "linkText": "Platform Link",
+      "linkEnabled": false,
+      "imageWrapperHidden": true
+    }
+  ],
+  "graphics-projects": [
+    {
+      "type": "image",
+      "source": "image/project/graphics/mockup.jpg",
+      "alt": "Social Media Design Sample",
+      "title": "Package & Mockup Design",
+      "description": "Designed Dry fruit product package with mockup for better visual.",
+      "category": "Photoshop",
+      "linkUrl": "#",
+      "linkText": "View Gallery (Soon)",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    },
+    {
+      "type": "image",
+      "source": "image/project/graphics/booklogo.png",
+      "alt": "Branding Poster Sample",
+      "title": "Logo Design",
+      "description": "A book selling shop logo design named BoiKal which mean Book & Time with islamic theme.",
+      "category": "Illustrator",
+      "linkUrl": "#",
+      "linkText": "See Examples (Soon)",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    },
+    {
+      "type": "image",
+      "source": "image/project/graphics/burger.jpg",
+      "alt": "Custom Illustration Sample",
+      "title": "Burger Design 404",
+      "description": "Unique Promotional Design for restaurants burger.",
+      "category": "Photoshop",
+      "linkUrl": "#",
+      "linkText": "Portfolio Link (Soon)",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    }
+  ],
+  "video-projects": [
+    {
+      "type": "video",
+      "source": "uploads/router-ad-white.mp4",
+      "alt": "Short Form Video Edit Sample",
+      "title": "Router Sale Motion",
+      "description": "Silent Motion Graphics for website landing page preview.",
+      "category": "Premiere Pro / AE",
+      "linkUrl": "uploads/router-ad-white.mp4",
+      "linkText": "Watch Full",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    }
+  ]
+}
