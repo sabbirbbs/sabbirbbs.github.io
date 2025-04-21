@@ -62,18 +62,6 @@
       "linkEnabled": false,
       "imageWrapperHidden": true
     },
-    {
-      "type": "placeholder",
-      "source": null,
-      "alt": "CTF Example",
-      "title": "CTF Challenges",
-      "description": "Honing practical exploitation skills via CTFs.",
-      "category": "Security Challenges",
-      "linkUrl": "#",
-      "linkText": "Platform Link",
-      "linkEnabled": false,
-      "imageWrapperHidden": true
-    }
   ],
   "graphics-projects": [
     {
