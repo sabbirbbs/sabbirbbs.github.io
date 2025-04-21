@@ -2,7 +2,7 @@
   "web-projects": [
     {
       "type": "image",
-      "source": "image/project/web/lekhito_blog.png",
+      "source": "uploads/image/project/web/lekhito_blog.png",
       "alt": "Blog Platform Preview",
       "title": "Lekhito Blog Platform",
       "description": "Feature-rich blog built with Django & Wagtail CMS.",
@@ -14,7 +14,7 @@
     },
     {
       "type": "image",
-      "source": "image/project/web/nims.png",
+      "source": "uploads/image/project/web/nims.png",
       "alt": "Inventory Management System Preview",
       "title": "NIMS - Inventory System",
       "description": "Inventory Management System for small businesses (Django).",
@@ -26,7 +26,7 @@
     },
     {
       "type": "image",
-      "source": "image/project/web/secondbrain.jpeg",
+      "source": "uploads/image/project/web/secondbrain.jpeg",
       "alt": "Another Web Project",
       "title": "Personal AI Based NoteBook",
       "description": "Thinking about to build a personal note keeping project which data will be trained for AI model to work as second brain.",
@@ -66,7 +66,7 @@
   "graphics-projects": [
     {
       "type": "image",
-      "source": "image/project/graphics/mockup.jpg",
+      "source": "uploads/image/project/graphics/mockup.jpg",
       "alt": "Social Media Design Sample",
       "title": "Package & Mockup Design",
       "description": "Designed Dry fruit product package with mockup for better visual.",
@@ -78,7 +78,7 @@
     },
     {
       "type": "image",
-      "source": "image/project/graphics/booklogo.png",
+      "source": "uploads/image/project/graphics/booklogo.png",
       "alt": "Branding Poster Sample",
       "title": "Logo Design",
       "description": "A book selling shop logo design named BoiKal which mean Book & Time with islamic theme.",
@@ -90,7 +90,7 @@
     },
     {
       "type": "image",
-      "source": "image/project/graphics/burger.jpg",
+      "source": "uploads/image/project/graphics/burger.jpg",
       "alt": "Custom Illustration Sample",
       "title": "Burger Design 404",
       "description": "Unique Promotional Design for restaurants burger.",
@@ -104,12 +104,25 @@
   "video-projects": [
     {
       "type": "video",
-      "source": "uploads/router-ad-white.mp4",
+      "source": "uploads/video/router-ad-white.mp4",
       "alt": "Short Form Video Edit Sample",
       "title": "Router Sale Motion",
       "description": "Silent Motion Graphics for website landing page preview.",
       "category": "Premiere Pro / AE",
-      "linkUrl": "uploads/router-ad-white.mp4",
+      "linkUrl": "uploads/video/router-ad-white.mp4",
+      "linkText": "Watch Full",
+      "linkEnabled": false,
+      "imageWrapperHidden": false
+    },
+    
+    {
+      "type": "video",
+      "source": "uploads/video/illuminati-reels.mp4",
+      "alt": "Short Form Video Edit Sample",
+      "title": "Router Sale Motion",
+      "description": "Silent Motion Graphics for website landing page preview.",
+      "category": "Premiere Pro",
+      "linkUrl": "uploads/video/illuminati-reels.mp4",
       "linkText": "Watch Full",
       "linkEnabled": false,
       "imageWrapperHidden": false
