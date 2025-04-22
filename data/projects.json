@@ -45,9 +45,9 @@
       "title": "Govt. Site Audit",
       "description": "Vulnerability assessment on taxzonemymensingh.gov.bd.",
       "category": "Ethical Hacking",
-      "linkUrl": "#",
-      "linkText": "Case Study (Soon)",
-      "linkEnabled": false,
+      "linkUrl": "https://taxzonemymensingh.gov.bd/poc.txt",
+      "linkText": "PoC",
+      "linkEnabled": true,
       "imageWrapperHidden": true
     },
     {
@@ -57,9 +57,9 @@
       "title": "ISP Platform Testing",
       "description": "Security testing on ispms.net software platform.",
       "category": "Penetration Testing",
-      "linkUrl": "#",
-      "linkText": "Details (Private)",
-      "linkEnabled": false,
+      "linkUrl": "https://ispms.net/poc.txt",
+      "linkText": "Poc",
+      "linkEnabled": true,
       "imageWrapperHidden": true
     }
   ],
