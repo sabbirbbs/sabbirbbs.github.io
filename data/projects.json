@@ -7,8 +7,8 @@
       "title": "Lekhito Blog Platform",
       "description": "Feature-rich blog built with Django & Wagtail CMS.",
       "category": "Django / Wagtail",
-      "linkUrl": "",
-      "linkText": "",
+      "linkUrl": "#",
+      "linkText": "Not Live",
       "linkEnabled": false,
       "imageWrapperHidden": false
     },
@@ -19,8 +19,8 @@
       "title": "NIMS - Inventory System",
       "description": "Inventory Management System for small businesses (Django).",
       "category": "Django / Web App",
-      "linkUrl": "",
-      "linkText": "",
+      "linkUrl": "#",
+      "linkText": "Not Live",
       "linkEnabled": false,
       "imageWrapperHidden": false
     },
@@ -31,7 +31,7 @@
       "title": "Personal AI Based NoteBook",
       "description": "Thinking about to build a personal note keeping project which data will be trained for AI model to work as second brain.",
       "category": "Concept",
-      "linkUrl": "",
+      "linkUrl": "#",
       "linkText": "",
       "linkEnabled": false,
       "imageWrapperHidden": false
