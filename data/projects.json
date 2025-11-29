@@ -9,7 +9,7 @@
       "category": "Django / Wagtail",
       "linkUrl": "http://blog.lekhito.xyz",
       "linkText": "View Live",
-      "linkEnabled": true,
+      "linkEnabled": false,
       "imageWrapperHidden": false
     },
     {
@@ -21,7 +21,7 @@
       "category": "Django / Web App",
       "linkUrl": "http://nims.lekhito.xyz",
       "linkText": "View Live",
-      "linkEnabled": true,
+      "linkEnabled": false,
       "imageWrapperHidden": false
     },
     {
